@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "126649565294",
+    "project_id": "adddeletedata-firbase",
+    "storage_bucket": "adddeletedata-firbase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126649565294:android:3ee83e918ba0590150267f",
+        "android_client_info": {
+          "package_name": "com.example.adddeletedata_firbase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvj4fBCpd-0BXH99J3SUGDpDEeh77M2gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

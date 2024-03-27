@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="50dp"
+        android:layout_height="100dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/profileImage_ImageView"
+            android:src="@drawable/baseline_party_mode_24"
+            android:layout_height="match_parent"
+            tools:ignore="ContentDescription" />
+
+    </androidx.cardview.widget.CardView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:hint="@string/name"
+        android:id="@+id/editName_EditText"
+        android:layout_marginHorizontal="40dp"
+        android:layout_height="wrap_content"
+        tools:ignore="Autofill,TextFields" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:hint="@string/village"
+        android:id="@+id/editVillage_EditText"
+        android:layout_marginHorizontal="40dp"
+        android:layout_height="wrap_content"
+        tools:ignore="Autofill" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:text="Upload"
+        android:textColor="@color/white"
+       android:textSize="20sp"
+        android:id="@+id/uploadBtn_appCompartButton"
+        android:backgroundTint="#1A7A1E"
+        android:layout_marginHorizontal="40dp"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:id="@+id/videoUpload_videoView"
+        android:layout_marginHorizontal="20dp"
+        android:layout_height="200dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:text="Upload"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:id="@+id/uploadvideoBtn_apCompartButton"
+        android:backgroundTint="#1A7A1E"
+        android:layout_marginHorizontal="40dp"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
